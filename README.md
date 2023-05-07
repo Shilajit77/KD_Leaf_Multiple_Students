@@ -88,4 +88,6 @@ With Smoteing:
 | Resnet 101 | 0.74 | 0.78 | 0.73 | 0.73 |
 | Ensemble Model | 0.74 | 0.75 | 0.74 | 0.74 |
 
+## Conclusion:
+Overall, our experiment shows that knowledge distillation and ensemble learning can be effective techniques for improving the performance of neural networks. Additionally, addressing the issue of class imbalance can further enhance the performance of the models.
 
