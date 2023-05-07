@@ -72,3 +72,20 @@ With Smoteing:
 | Student Model 4 (RNET) | Yes | 0.61 | 0.63 | 0.59 | 0.57 |
 | Shuffle Net (Student Model 3) | No | 0.53 | 0.61 | 0.52 | 0.52 |
 | Shuffle Net (Student Model 3) | Yes | 0.62 | 0.67 | 0.62 | 0.63 |
+
+Comparsion with the teacher models: 
+Without Smoteting:
+| Model | Accuracy | Precision | Recall | F1 Score |
+|-------|----------|-----------|--------|----------|
+| DenseNet 121 | 0.75 | 0.77 | 0.75 | 0.69 |
+| Resnet 101 | 0.77 | 0.81 | 0.77 | 0.77 |
+| Ensemble Model | 0.67 | 0.65 | 0.67 | 0.65 |
+
+With Smoteing: 
+| Model | Accuracy | Precision | Recall | F1 Score |
+|-------|----------|-----------|--------|----------|
+| DenseNet 121 | 0.77 | 0.79 | 0.77 | 0.78 |
+| Resnet 101 | 0.74 | 0.78 | 0.73 | 0.73 |
+| Ensemble Model | 0.74 | 0.75 | 0.74 | 0.74 |
+
+
