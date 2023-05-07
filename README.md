@@ -26,6 +26,9 @@ Our objective is to use transfer learning and knowledge distillation to transfer
 After training the ShuffleNet and custom-made CNN student models using knowledge distillation from the DenseNet121 and ResNet101 teacher models, we have four student models in total, which demonstrated improved performance compared to training them individually. Now, we want to do something which can increase the performance of these students and made them better.
 
 To further enhance the performance of our student models, we can create an ensemble model by combining the predictions of the four student models. Ensemble learning has been shown to improve accuracy and robustness by leveraging the strengths of each individual model. The ensemble model can take the average prediction or use a more sophisticated technique like weighted averaging. In our experiment, the ensemble model made up of the four student models outperformed each individual student model that learned from their teacher model, proving the effectiveness of ensemble learning.
+<p align="center">
+  <img src="Images/Model_map.png" alt="Ensemble model" width="500"/><br>
+ </p><br>
 
 Class imbalance is a common problem in machine learning, where the number of examples in each class is not evenly distributed. Class imbalance can negatively affect neural network training by causing overfitting to majority classes and underfitting to minority classes. Synthetic Minority Over-sampling Technique (SMOTE) is a data augmentation technique that generates synthetic samples of the minority class by interpolating between existing samples. SMOTE helps balance class distributions in datasets, which can improve the neural network's ability to classify minority classes accurately.
 
